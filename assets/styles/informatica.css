@@ -1,0 +1,64 @@
+body{
+    background-image: url(../media/fondoInformatica.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.btnRegresar{
+    background: rgb(122, 0, 0);
+    width: 170px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.btnRegresar:hover{
+    color: rgb(255, 255, 255);
+    width: 170px;
+    height: 50px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border: rgb(2, 2, 2) solid 2px;
+    border-radius: 10px; 
+    margin-right: 10px;
+}
+
+.textoInformatica{
+    background-color: rgba(32, 32, 32, 0.822);
+    color: rgb(255, 255, 255);
+    width: 800px;
+    padding: 5px;
+    margin-left: 270px;
+    border-radius: 25px;
+    margin-top: 130px;
+}
+
+/*
+.cardProgra{
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    margin-top: 40px;
+}
+
+.imagen1 img{
+    width: 285px;
+    height: 180px;
+}
+
+.cardSoftware{
+    background-color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    margin-left: 500px;
+    margin-bottom: 150px;
+
+}
+*/

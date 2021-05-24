@@ -2,7 +2,7 @@ body{
     background-image: url(../media/fondoInformatica.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .btnRegresar{
@@ -40,25 +40,88 @@ body{
     margin-top: 130px;
 }
 
-/*
-.cardProgra{
-    background-color: rgb(32, 32, 32);
-    color: rgb(255, 255, 255);
-    padding: 4px;
-    margin-top: 40px;
+@media screen and (max-width: 1090px) {
+    .textoInformatica{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 700px;
+        padding: 5px;
+        margin-left: 210px;
+        border-radius: 25px;
+        margin-top: 110px;
+    } 
 }
 
-.imagen1 img{
-    width: 285px;
-    height: 180px;
+
+@media screen and (max-width: 940px) {
+    .textoInformatica{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 700px;
+        padding: 5px;
+        margin-left: 100px;
+        border-radius: 25px;
+        margin-top: 110px;
+    } 
 }
 
-.cardSoftware{
-    background-color: rgb(32, 32, 32);
-    color: rgb(255, 255, 255);
-    padding: 4px;
-    margin-left: 500px;
-    margin-bottom: 150px;
-
+@media screen and (max-width: 850px){
+    .textoInformatica{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 700px;
+        padding: 5px;
+        margin-left: 55px;
+        border-radius: 25px;
+        margin-top: 110px;
 }
-*/
+}
+
+@media screen and (max-width: 810px){
+    .textoInformatica{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 700px;
+        padding: 5px;
+        margin-left: 35px;
+        border-radius: 25px;
+        margin-top: 110px;
+}
+}
+
+@media screen and (max-width: 780px){
+    .textoInformatica{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 670px;
+        padding: 5px;
+        margin-left: 15px;
+        border-radius: 25px;
+        margin-top: 110px;
+}
+}
+
+@media screen and (max-width: 700px){
+    
+    .textoInformatica{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 500px;
+        padding: 2px;
+        margin-left: 60px;
+        border-radius: 25px;
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .textoInformatica{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 450px;
+        padding: 5px;
+        margin-left: 5px;
+        border-radius: 25px;
+        margin-top: 80px;
+}
+}

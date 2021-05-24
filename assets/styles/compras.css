@@ -2,7 +2,7 @@ body{
     background-image: url(../media/fondoCompras.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .btnRegresar{
@@ -38,4 +38,91 @@ body{
     margin-left: 270px;
     border-radius: 25px;
     margin-top: 150px;
+}
+
+
+@media screen and (max-width: 1090px) {
+    .textoCompra{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 700px;
+        padding: 5px;
+        margin-left: 210px;
+        border-radius: 25px;
+        margin-top: 150px;
+    } 
+}
+
+
+@media screen and (max-width: 940px) {
+    .textoCompra{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 700px;
+        padding: 5px;
+        margin-left: 100px;
+        border-radius: 25px;
+        margin-top: 150px;
+    } 
+}
+
+@media screen and (max-width: 850px){
+    .textoCompra{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 700px;
+        padding: 5px;
+        margin-left: 55px;
+        border-radius: 25px;
+        margin-top: 150px;
+}
+}
+
+@media screen and (max-width: 810px){
+    .textoCompra{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 700px;
+        padding: 5px;
+        margin-left: 35px;
+        border-radius: 25px;
+        margin-top: 150px;
+}
+}
+
+@media screen and (max-width: 780px){
+    .textoCompra{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 670px;
+        padding: 5px;
+        margin-left: 15px;
+        border-radius: 25px;
+        margin-top: 150px;
+}
+}
+
+@media screen and (max-width: 700px){
+    
+    .textoCompra{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 500px;
+        padding: 2px;
+        margin-left: 60px;
+        border-radius: 25px;
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .textoCompra{
+        background-color: rgba(32, 32, 32, 0.822);
+        color: rgb(255, 255, 255);
+        width: 450px;
+        padding: 5px;
+        margin-left: 5px;
+        border-radius: 25px;
+        margin-top: 130px;
+}
 }
